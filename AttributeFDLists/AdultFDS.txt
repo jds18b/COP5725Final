@@ -1,0 +1,78 @@
+fnlwgt, education-num, marital-status, occupation, relationship->sex
+workclass, native-country, income, fnlwgt, education, marital-status, relationship, sex->race
+age, fnlwgt, education, marital-status->race
+age, fnlwgt, education, marital-status->sex
+age, fnlwgt, education, relationship->race
+age, fnlwgt, education, relationship->sex
+age, native-country, fnlwgt, relationship->sex
+income, fnlwgt, education, occupation, relationship->race
+income, fnlwgt, education, occupation, relationship->sex
+fnlwgt, education, marital-status, occupation, relationship->sex
+age, workclass, hours-per-week, fnlwgt, education, occupation->capital-loss
+age, native-country, fnlwgt, education-num->race
+workclass, hours-per-week, fnlwgt, education, marital-status, relationship->sex
+native-country, fnlwgt, education-num, occupation, relationship->race
+age, workclass, hours-per-week, fnlwgt, occupation->race
+age, native-country, fnlwgt, education->race
+workclass, capital-gain, capital-loss, hours-per-week, fnlwgt, education-num, relationship->sex
+workclass, fnlwgt, education-num, occupation, relationship->sex
+workclass, hours-per-week, fnlwgt, education-num, marital-status, relationship->sex
+age, workclass, hours-per-week, fnlwgt, education-num, occupation->capital-loss
+hours-per-week, native-country, income, fnlwgt, occupation, sex->race
+native-country, fnlwgt, education, occupation, relationship->race
+native-country, fnlwgt, education-num, occupation, sex->race
+workclass, capital-gain, capital-loss, hours-per-week, fnlwgt, education, relationship->sex
+workclass, capital-loss, income, fnlwgt, education-num, marital-status, relationship, sex->race
+capital-gain, fnlwgt, education-num, occupation, relationship->race
+education-num->education
+workclass, hours-per-week, income, fnlwgt, education-num, marital-status, relationship->race
+native-country, fnlwgt, education, occupation, sex->race
+workclass, capital-gain, hours-per-week, fnlwgt, education-num, relationship, race->sex
+workclass, capital-loss, income, fnlwgt, education, marital-status, relationship, sex->race
+education->education-num
+age, income, fnlwgt, occupation->race
+age, fnlwgt, marital-status, occupation->race
+age, fnlwgt, marital-status, occupation->sex
+workclass, capital-gain, hours-per-week, fnlwgt, education, relationship, race->sex
+workclass, capital-loss, native-country, fnlwgt, education-num, marital-status, relationship, sex->race
+age, fnlwgt, occupation, relationship->race
+age, fnlwgt, occupation, relationship->sex
+age, capital-gain, hours-per-week, fnlwgt, occupation, relationship->marital-status
+capital-gain, hours-per-week, native-country, fnlwgt, education-num, marital-status, relationship->race
+age, fnlwgt, relationship, race->sex
+capital-loss, fnlwgt, education-num, occupation, relationship->race
+capital-gain, capital-loss, hours-per-week, income, fnlwgt, education-num, marital-status, relationship->race
+workclass, capital-loss, native-country, fnlwgt, education, marital-status, relationship, sex->race
+capital-gain, hours-per-week, native-country, fnlwgt, education, marital-status, relationship->race
+age, workclass, native-country, fnlwgt, occupation->race
+capital-gain, fnlwgt, education, occupation, relationship->race
+capital-loss, fnlwgt, education, occupation, relationship->race
+capital-gain, capital-loss, hours-per-week, income, fnlwgt, education, marital-status, relationship->race
+workclass, fnlwgt, education, occupation, relationship->sex
+workclass, capital-gain, hours-per-week, income, fnlwgt, education-num, relationship->sex
+age, hours-per-week, fnlwgt, education-num->race
+age, hours-per-week, fnlwgt, relationship->sex
+hours-per-week, native-country, fnlwgt, marital-status, occupation->race
+workclass, capital-gain, hours-per-week, income, fnlwgt, education, relationship->sex
+age, hours-per-week, fnlwgt, education-num, occupation, relationship->marital-status
+hours-per-week, native-country, fnlwgt, occupation, relationship->race
+hours-per-week, fnlwgt, education-num, occupation, relationship->race
+hours-per-week, fnlwgt, education-num, occupation, relationship->sex
+age, hours-per-week, fnlwgt, education->race
+workclass, hours-per-week, income, fnlwgt, education, marital-status, relationship->race
+age, hours-per-week, fnlwgt, education, occupation, relationship->marital-status
+workclass, hours-per-week, native-country, fnlwgt, occupation, sex->race
+hours-per-week, fnlwgt, education, occupation, relationship->race
+hours-per-week, fnlwgt, education, occupation, relationship->sex
+age, income, fnlwgt, education-num->race
+workclass, hours-per-week, native-country, fnlwgt, education-num, marital-status, relationship->race
+age, income, fnlwgt, education->race
+age, workclass, native-country, fnlwgt, marital-status->race
+workclass, native-country, income, fnlwgt, education-num, marital-status, relationship, sex->race
+age, fnlwgt, education-num, marital-status->race
+age, fnlwgt, education-num, marital-status->sex
+workclass, hours-per-week, native-country, fnlwgt, education, marital-status, relationship->race
+age, fnlwgt, education-num, relationship->race
+age, fnlwgt, education-num, relationship->sex
+income, fnlwgt, education-num, occupation, relationship->race
+income, fnlwgt, education-num, occupation, relationship->sex

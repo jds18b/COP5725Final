@@ -1,0 +1,137 @@
+sex, diameter, height, viscera_weight, shell_weight->rings
+diameter, whole_weight, viscera_weight, rings->length
+diameter, whole_weight, viscera_weight, rings->height
+diameter, whole_weight, viscera_weight, rings->shucked_weight
+diameter, whole_weight, viscera_weight, rings->shell_weight
+length, whole_weight, viscera_weight, rings->sex
+length, whole_weight, viscera_weight, rings->diameter
+length, whole_weight, viscera_weight, rings->height
+length, whole_weight, viscera_weight, rings->shucked_weight
+length, whole_weight, viscera_weight, rings->shell_weight
+sex, whole_weight, viscera_weight, rings->length
+sex, whole_weight, viscera_weight, rings->diameter
+sex, whole_weight, viscera_weight, rings->height
+sex, whole_weight, viscera_weight, rings->shucked_weight
+sex, whole_weight, viscera_weight, rings->shell_weight
+length, diameter, height, viscera_weight, rings->sex
+length, diameter, height, viscera_weight, rings->whole_weight
+length, diameter, height, viscera_weight, rings->shucked_weight
+length, diameter, height, viscera_weight, rings->shell_weight
+length, diameter, height, shucked_weight, shell_weight, rings->whole_weight
+length, diameter, height, shucked_weight, shell_weight, rings->viscera_weight
+height, shucked_weight, viscera_weight, shell_weight->sex
+height, shucked_weight, viscera_weight, shell_weight->length
+height, shucked_weight, viscera_weight, shell_weight->diameter
+height, shucked_weight, viscera_weight, shell_weight->whole_weight
+height, shucked_weight, viscera_weight, shell_weight->rings
+diameter, height, shucked_weight, shell_weight, rings->sex
+length, height, shucked_weight, shell_weight, rings->sex
+diameter, shucked_weight, viscera_weight, shell_weight->sex
+length, diameter, height, whole_weight->sex
+length, shucked_weight, viscera_weight, shell_weight->sex
+length, shucked_weight, viscera_weight, shell_weight->diameter
+sex, height, whole_weight, viscera_weight->diameter
+length, diameter, shucked_weight, shell_weight, rings->sex
+diameter, height, whole_weight, shell_weight->sex
+height, whole_weight, shucked_weight, viscera_weight->length
+height, whole_weight, shucked_weight, viscera_weight->shell_weight
+height, whole_weight, shucked_weight, viscera_weight->rings
+diameter, height, whole_weight, shell_weight, rings->length
+diameter, height, whole_weight, shell_weight, rings->shucked_weight
+diameter, height, whole_weight, shell_weight, rings->viscera_weight
+length, whole_weight, shucked_weight, viscera_weight->height
+length, whole_weight, shucked_weight, viscera_weight->shell_weight
+sex, height, whole_weight, shell_weight, rings->length
+whole_weight, shucked_weight, viscera_weight->sex
+whole_weight, shucked_weight, viscera_weight->diameter
+diameter, whole_weight, shucked_weight, rings->length
+diameter, whole_weight, shucked_weight, rings->height
+diameter, whole_weight, shucked_weight, rings->shell_weight
+whole_weight, viscera_weight, shell_weight->sex
+whole_weight, viscera_weight, shell_weight->length
+whole_weight, viscera_weight, shell_weight->diameter
+whole_weight, viscera_weight, shell_weight->height
+whole_weight, viscera_weight, shell_weight->shucked_weight
+whole_weight, viscera_weight, shell_weight->rings
+sex, diameter, height, shucked_weight, viscera_weight->whole_weight
+sex, diameter, height, shucked_weight, viscera_weight->shell_weight
+sex, diameter, height, shucked_weight, viscera_weight->rings
+sex, length, diameter, height, viscera_weight, shell_weight->whole_weight
+diameter, height, shucked_weight, viscera_weight->length
+sex, length, height, shucked_weight, viscera_weight->whole_weight
+sex, length, height, shucked_weight, viscera_weight->rings
+length, whole_weight, shell_weight, rings->sex
+sex, length, diameter, height, shucked_weight, rings->whole_weight
+sex, length, diameter, height, shucked_weight, rings->viscera_weight
+sex, length, diameter, height, shucked_weight, rings->shell_weight
+sex, length, diameter, viscera_weight, shell_weight->shucked_weight
+sex, length, shucked_weight, viscera_weight->diameter
+sex, length, shucked_weight, viscera_weight->shell_weight
+diameter, height, whole_weight, shucked_weight->length
+diameter, height, whole_weight, shucked_weight->shell_weight
+diameter, height, whole_weight, shucked_weight->rings
+length, height, whole_weight, viscera_weight->sex
+length, height, whole_weight, viscera_weight->diameter
+length, height, whole_weight, viscera_weight->shucked_weight
+length, height, whole_weight, viscera_weight->shell_weight
+length, height, whole_weight, viscera_weight->rings
+length, diameter, height, whole_weight, rings->shucked_weight
+length, diameter, height, whole_weight, rings->viscera_weight
+length, diameter, height, whole_weight, rings->shell_weight
+length, height, whole_weight, rings->sex
+diameter, whole_weight, viscera_weight->sex
+sex, length, height, shucked_weight, shell_weight->rings
+whole_weight, shucked_weight, shell_weight->sex
+whole_weight, shucked_weight, shell_weight->length
+whole_weight, shucked_weight, shell_weight->diameter
+whole_weight, shucked_weight, shell_weight->height
+whole_weight, shucked_weight, shell_weight->viscera_weight
+whole_weight, shucked_weight, shell_weight->rings
+sex, length, diameter, height, shucked_weight, shell_weight->whole_weight
+sex, length, diameter, height, shucked_weight, shell_weight->viscera_weight
+whole_weight, shucked_weight, viscera_weight, rings->length
+whole_weight, shucked_weight, viscera_weight, rings->height
+whole_weight, shucked_weight, viscera_weight, rings->shell_weight
+diameter, height, viscera_weight, shell_weight, rings->sex
+height, shucked_weight, viscera_weight, rings->sex
+height, shucked_weight, viscera_weight, rings->length
+height, shucked_weight, viscera_weight, rings->diameter
+height, shucked_weight, viscera_weight, rings->whole_weight
+height, shucked_weight, viscera_weight, rings->shell_weight
+diameter, shucked_weight, viscera_weight, rings->sex
+diameter, shucked_weight, viscera_weight, rings->shell_weight
+length, diameter, viscera_weight, shell_weight, rings->sex
+length, diameter, viscera_weight, shell_weight, rings->height
+length, diameter, viscera_weight, shell_weight, rings->whole_weight
+length, diameter, viscera_weight, shell_weight, rings->shucked_weight
+length, shucked_weight, viscera_weight, rings->sex
+length, shucked_weight, viscera_weight, rings->diameter
+length, shucked_weight, viscera_weight, rings->height
+length, shucked_weight, viscera_weight, rings->whole_weight
+length, shucked_weight, viscera_weight, rings->shell_weight
+length, height, whole_weight, shucked_weight->sex
+length, height, whole_weight, shucked_weight->diameter
+length, height, whole_weight, shucked_weight->viscera_weight
+length, height, whole_weight, shucked_weight->shell_weight
+sex, shucked_weight, viscera_weight, rings->diameter
+sex, shucked_weight, viscera_weight, rings->shell_weight
+sex, length, viscera_weight, shell_weight, rings->diameter
+sex, length, viscera_weight, shell_weight, rings->height
+sex, length, viscera_weight, shell_weight, rings->whole_weight
+sex, length, viscera_weight, shell_weight, rings->shucked_weight
+sex, length, height, whole_weight, shell_weight->rings
+length, diameter, whole_weight, shucked_weight->height
+length, diameter, whole_weight, shucked_weight->shell_weight
+diameter, whole_weight, shucked_weight->sex
+diameter, whole_weight, shucked_weight->viscera_weight
+length, diameter, whole_weight, shell_weight->sex
+length, diameter, whole_weight, shell_weight->height
+length, diameter, whole_weight, shell_weight->shucked_weight
+length, diameter, whole_weight, shell_weight->viscera_weight
+length, diameter, whole_weight, shell_weight->rings
+sex, length, whole_weight, shucked_weight->diameter
+sex, length, whole_weight, shucked_weight->height
+sex, length, whole_weight, shucked_weight->viscera_weight
+sex, length, whole_weight, shucked_weight->shell_weight
+length, whole_weight, shucked_weight->rings
+length, height, shucked_weight, viscera_weight->diameter

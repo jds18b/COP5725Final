@@ -1,0 +1,39 @@
+Cover1
+age,capital-gain,fnlwgt,hours-per-week,marital-status,occupation,relationship,
+age,capital-gain,fnlwgt,hours-per-week,occupation,relationship,->marital-status, 
+Cover2
+age,capital-loss,education-num,fnlwgt,hours-per-week,occupation,workclass,
+age,education-num,fnlwgt,hours-per-week,occupation,workclass,->capital-loss, 
+Cover3
+age,education-num,fnlwgt,marital-status,race,
+age,education-num,fnlwgt,marital-status,->race, 
+Cover4
+age,education-num,fnlwgt,marital-status,sex,
+age,education-num,fnlwgt,marital-status,->sex, 
+Cover5
+age,education-num,fnlwgt,race,relationship,
+age,education-num,fnlwgt,relationship,->race, 
+Cover6
+age,education-num,fnlwgt,relationship,sex,
+age,education-num,fnlwgt,relationship,->sex, 
+Cover7
+age,fnlwgt,marital-status,occupation,race,
+age,fnlwgt,marital-status,occupation,->race, 
+Cover8
+age,fnlwgt,marital-status,occupation,sex,
+age,fnlwgt,marital-status,occupation,->sex, 
+Cover9
+education,education-num,
+education,->education-num, education-num,->education, 
+Cover10
+education,education-num,
+education,->education-num, education-num,->education, 
+Cover11
+education-num,fnlwgt,native-country,occupation,race,sex,
+education-num,fnlwgt,native-country,occupation,sex,->race, 
+Cover12
+education-num,fnlwgt,occupation,relationship,sex,workclass,
+education-num,fnlwgt,occupation,relationship,workclass,->sex, 
+Cover13
+age,capital-gain,capital-loss,education,education-num,fnlwgt,hours-per-week,income,marital-status,native-country,occupation,race,relationship,sex,workclass,
+age,capital-gain,fnlwgt,hours-per-week,occupation,relationship,->marital-status, age,education,fnlwgt,hours-per-week,occupation,workclass,->capital-loss, age,education,fnlwgt,marital-status,->race, age,education,fnlwgt,marital-status,->sex, age,education,fnlwgt,relationship,->race, age,education,fnlwgt,relationship,->sex, age,fnlwgt,marital-status,occupation,->race, age,fnlwgt,marital-status,occupation,->sex, education,->education-num, education,fnlwgt,native-country,occupation,sex,->race, education-num,->education, education-num,fnlwgt,occupation,relationship,workclass,->sex, 

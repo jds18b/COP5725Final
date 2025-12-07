@@ -1,0 +1,36 @@
+Conf1
+education,education-num,
+education,->education-num, education-num,->education, 
+Conf2
+education,fnlwgt,occupation,relationship,sex,workclass,
+education,fnlwgt,occupation,relationship,workclass,->sex, 
+Conf3
+education,fnlwgt,native-country,occupation,race,sex,
+education,fnlwgt,native-country,occupation,sex,->race, 
+Conf4
+age,fnlwgt,marital-status,occupation,sex,
+age,fnlwgt,marital-status,occupation,->sex, 
+Conf5
+age,fnlwgt,marital-status,occupation,race,
+age,fnlwgt,marital-status,occupation,->race, 
+Conf6
+age,capital-gain,fnlwgt,hours-per-week,marital-status,occupation,relationship,
+age,capital-gain,fnlwgt,hours-per-week,occupation,relationship,->marital-status, 
+Conf7
+age,education,fnlwgt,relationship,sex,
+age,education,fnlwgt,relationship,->sex, 
+Conf8
+age,education,fnlwgt,race,relationship,
+age,education,fnlwgt,relationship,->race, 
+Conf9
+age,education,fnlwgt,marital-status,sex,
+age,education,fnlwgt,marital-status,->sex, 
+Conf10
+age,education,fnlwgt,marital-status,race,
+age,education,fnlwgt,marital-status,->race, 
+Conf11
+age,capital-loss,education,fnlwgt,hours-per-week,occupation,workclass,
+age,education,fnlwgt,hours-per-week,occupation,workclass,->capital-loss, 
+Conf12
+age,capital-gain,capital-loss,education,education-num,fnlwgt,hours-per-week,income,marital-status,native-country,occupation,race,relationship,sex,workclass,
+age,capital-gain,fnlwgt,hours-per-week,occupation,relationship,->marital-status, age,education,fnlwgt,hours-per-week,occupation,workclass,->capital-loss, age,education,fnlwgt,marital-status,->race, age,education,fnlwgt,marital-status,->sex, age,education,fnlwgt,relationship,->race, age,education,fnlwgt,relationship,->sex, age,fnlwgt,marital-status,occupation,->race, age,fnlwgt,marital-status,occupation,->sex, education,->education-num, education,fnlwgt,native-country,occupation,sex,->race, education-num,->education, education-num,fnlwgt,occupation,relationship,workclass,->sex, 

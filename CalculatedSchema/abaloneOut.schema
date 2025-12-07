@@ -1,0 +1,78 @@
+R1
+diameter,height,length,rings,sex,shucked_weight,whole_weight,
+diameter,height,length,rings,sex,shucked_weight,->whole_weight, diameter,height,length,rings,whole_weight,->shucked_weight, diameter,height,length,whole_weight,->sex, diameter,height,shucked_weight,whole_weight,->length, diameter,height,shucked_weight,whole_weight,->rings, diameter,length,shucked_weight,whole_weight,->height, diameter,rings,shucked_weight,whole_weight,->height, diameter,rings,shucked_weight,whole_weight,->length, diameter,shucked_weight,whole_weight,->sex, height,length,rings,whole_weight,->sex, height,length,shucked_weight,whole_weight,->diameter, height,length,shucked_weight,whole_weight,->sex, length,sex,shucked_weight,whole_weight,->diameter, length,sex,shucked_weight,whole_weight,->height, length,shucked_weight,whole_weight,->rings, 
+R2
+diameter,height,sex,viscera_weight,whole_weight,
+diameter,viscera_weight,whole_weight,->sex, height,sex,viscera_weight,whole_weight,->diameter, 
+R3
+height,length,rings,sex,shell_weight,whole_weight,
+height,length,rings,whole_weight,->sex, height,length,sex,shell_weight,whole_weight,->rings, height,rings,sex,shell_weight,whole_weight,->length, length,rings,shell_weight,whole_weight,->sex, 
+R4
+diameter,length,sex,shell_weight,shucked_weight,viscera_weight,
+diameter,length,sex,shell_weight,viscera_weight,->shucked_weight, diameter,shell_weight,shucked_weight,viscera_weight,->sex, length,sex,shucked_weight,viscera_weight,->diameter, length,sex,shucked_weight,viscera_weight,->shell_weight, length,shell_weight,shucked_weight,viscera_weight,->diameter, length,shell_weight,shucked_weight,viscera_weight,->sex, 
+R5
+diameter,height,length,rings,shell_weight,whole_weight,
+diameter,height,length,rings,whole_weight,->shell_weight, diameter,height,rings,shell_weight,whole_weight,->length, diameter,length,shell_weight,whole_weight,->height, diameter,length,shell_weight,whole_weight,->rings, 
+R6
+diameter,length,shell_weight,viscera_weight,whole_weight,
+diameter,length,shell_weight,whole_weight,->viscera_weight, shell_weight,viscera_weight,whole_weight,->diameter, shell_weight,viscera_weight,whole_weight,->length, 
+R7
+diameter,height,length,rings,shell_weight,viscera_weight,
+diameter,height,length,rings,viscera_weight,->shell_weight, diameter,length,rings,shell_weight,viscera_weight,->height, 
+R8
+diameter,length,rings,sex,shell_weight,viscera_weight,
+diameter,length,rings,shell_weight,viscera_weight,->sex, length,rings,sex,shell_weight,viscera_weight,->diameter, 
+R9
+height,length,rings,viscera_weight,whole_weight,
+height,length,viscera_weight,whole_weight,->rings, length,rings,viscera_weight,whole_weight,->height, 
+R10
+diameter,length,rings,viscera_weight,whole_weight,
+diameter,rings,viscera_weight,whole_weight,->length, length,rings,viscera_weight,whole_weight,->diameter, 
+R11
+diameter,rings,sex,shucked_weight,viscera_weight,
+diameter,rings,shucked_weight,viscera_weight,->sex, rings,sex,shucked_weight,viscera_weight,->diameter, 
+R12
+diameter,shucked_weight,viscera_weight,whole_weight,
+diameter,shucked_weight,whole_weight,->viscera_weight, shucked_weight,viscera_weight,whole_weight,->diameter, 
+R13
+diameter,height,rings,sex,shell_weight,viscera_weight,
+diameter,height,rings,shell_weight,viscera_weight,->sex, diameter,height,sex,shell_weight,viscera_weight,->rings, 
+R14
+diameter,height,length,shucked_weight,viscera_weight,
+diameter,height,shucked_weight,viscera_weight,->length, height,length,shucked_weight,viscera_weight,->diameter, 
+R15
+height,length,rings,sex,shell_weight,shucked_weight,
+height,length,rings,shell_weight,shucked_weight,->sex, height,length,sex,shell_weight,shucked_weight,->rings, 
+R16
+height,rings,sex,viscera_weight,whole_weight,
+rings,sex,viscera_weight,whole_weight,->height, 
+R17
+length,shell_weight,shucked_weight,whole_weight,
+shell_weight,shucked_weight,whole_weight,->length, 
+R18
+height,shell_weight,viscera_weight,whole_weight,
+shell_weight,viscera_weight,whole_weight,->height, 
+R19
+diameter,height,rings,sex,shell_weight,shucked_weight,
+diameter,height,rings,shell_weight,shucked_weight,->sex, 
+R20
+diameter,height,sex,shell_weight,whole_weight,
+diameter,height,shell_weight,whole_weight,->sex, 
+R21
+diameter,length,rings,sex,shell_weight,shucked_weight,
+diameter,length,rings,shell_weight,shucked_weight,->sex, 
+R22
+diameter,rings,shell_weight,shucked_weight,viscera_weight,
+diameter,rings,shucked_weight,viscera_weight,->shell_weight, 
+R23
+height,rings,sex,shucked_weight,viscera_weight,
+height,rings,shucked_weight,viscera_weight,->sex, 
+R24
+height,length,shell_weight,shucked_weight,viscera_weight,
+height,shell_weight,shucked_weight,viscera_weight,->length, 
+R25
+height,length,rings,sex,shell_weight,viscera_weight,
+length,rings,sex,shell_weight,viscera_weight,->height, 
+R26
+length,rings,shell_weight,shucked_weight,viscera_weight,
+length,rings,shucked_weight,viscera_weight,->shell_weight, 

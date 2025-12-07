@@ -1,0 +1,12 @@
+education->education-num
+education-num->education
+age, fnlwgt, education, marital-status->race
+age, fnlwgt, education, marital-status->sex
+age, fnlwgt, education, relationship->race
+age, fnlwgt, education, relationship->sex
+age, workclass, hours-per-week, fnlwgt, education, occupation->capital-loss
+age, capital-gain, hours-per-week, fnlwgt, occupation, relationship->marital-status
+age, fnlwgt, marital-status, occupation->race
+age, fnlwgt, marital-status, occupation->sex
+native-country, fnlwgt, education, occupation, sex->race
+workclass, fnlwgt, education-num, occupation, relationship->sex
